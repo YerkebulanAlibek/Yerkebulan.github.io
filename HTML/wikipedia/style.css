@@ -1,0 +1,87 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color:rgb(88, 11, 95);
+    background-size: cover;
+}
+
+
+h1{
+    color: rgb(0, 255, 13);
+    text-align: center;
+}
+
+
+p{
+    font-family: Verdana ;
+}
+
+
+.b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.img1{
+height: 100;
+}
+
+
+img{
+    margin-left: 500px;
+}
+
+
+a{
+    color: rgb(17, 55, 168);
+}
+
+
+.seealso{
+    color: firebrick;
+}
+
+
+.mainlist{
+    size: 50px;
+}
+
+
+*{
+    font-family:Impact;
+    
+}
+
+
+body{
+    overflow:scroll;
+}
+
+
+#td{
+    color: chartreuse;
+}
+
+
+a:hover{
+    color: chocolate;
+}
+
+
+.tears{
+    opacity: 0.5;
+}
+
+
+img[src*='wikimedia']{
+    margin-right: 500px;
+}
+
+
+
+
+
