@@ -42,6 +42,7 @@ body {
   }
 
   .row {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -59,11 +60,13 @@ body {
   }
 
   .day.square {
+    display: flex;
     background-color: steelblue;
     border: 1px solid white;
   }
 
   .task.square {
+    display: flex;
     background-color: khaki;
     border: 1px solid white;
   }
@@ -82,7 +85,8 @@ body {
   }
 
   .reminders h3 {
-    flex-grow: 2;
+
+    flex-grow: 1;
     display: inline-flex;
     width: 100%;
     margin: 10px;
