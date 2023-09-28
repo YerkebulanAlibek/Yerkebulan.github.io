@@ -117,6 +117,7 @@ html {
 	align-items: center;
  }
  #locations .flex-container-location {
+	justify-content: space-between;
 	margin: auto;
 	width: 1100px;
  }
