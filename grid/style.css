@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Impact ;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.grid-item {
+    background-color: rgba(93, 124, 41, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+h1{
+    text-align: center;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    font-size: 40px;
+}
+
+
