@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#personality{
+    font-size: 35px;
+}
+
+nav a:hover{
+    color: cadetblue;
+}
+
