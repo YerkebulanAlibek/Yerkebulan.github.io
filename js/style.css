@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#content {
+    max-width: 600px;
+    margin: 0 auto;
