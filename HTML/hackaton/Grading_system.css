@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body, html {
+	height:100%;
+	font-family: 'Poppins', sans-serif;
+	background:#f1f8e9b8;
+	font-size:15px;
+	margin:0px auto;
+.logo{
+	position: absolute;
+	height: auto;
+	left: 0px;
+	width: 250px; 	
+}
+}
+table {
+	width:100%;
+	border-collapse: collapse;
+	max-width:600px;
+	margin-bottom:30px!important;
+	margin-top:30px!important;
+	margin:0px auto;
+}
+table tr th {
+	font-weight:600;
+}
+table tr td, table tr th {
+	padding:7px 10px;
+	border: 1px solid #818181;
+	text-align:left;
+	width:300px;
+	font-size:14px;
+	font-weight:500;
+}
+input {
+	padding: 10px;
+	background:transparent;
+	height:20px;
+	width: 230px;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	font-size:14px;
+	-outline:none;
+}
+mark {
+	font-size:26px;
+	font-weight:bold;
+	color:#FF5722;
+}
+p{
+	font-size:14px;
+}
+h1, h2, p {
+	padding:0px;
+	margin:0px;
+	text-align:center;
+}
+address {
+	font-size:13px;
+	text-align:center;
+}
+h1 {
+	margin-top:20px;
+	font-size:35px;
+	font-weight:800;
+}
+h2 {
+	margin-top:10px;
+	font-size:18px;
+}
+.fname {
+	font-family: 'PT Serif Caption', serif;
+	margin-bottom:10px;
+}
+.fname b{
+    border-bottom: 3px solid #f2f8eb;
+    padding-right:5px;
+}
+.student tr {
+    border: none;
+    padding: 5px 0px;
+    display: flex;
+}
+.student th, .student td{
+	border:none;
+}
+.student th{
+	width:80px;
+	padding-bottom: 0px;
+}
+.student td{
+	border-bottom: 2px black;
+    padding:0px;
+}
+.student td span{
+    position: relative;
+    top: 6px;
+}
+.col-blue{font-size:16px;color:#2196F3;}
+.col-green{font-size:16px;color:green;}
+.col-red{ font-size:16px;color:red; }
+
+button{
+	background-color: #0077ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	width: 9em;
+	height: 3em;
+	border-radius: 30em;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 1;
+	margin-left: 225px; 	
+}
+

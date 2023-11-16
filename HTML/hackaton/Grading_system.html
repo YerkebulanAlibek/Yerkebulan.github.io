@@ -1,0 +1,154 @@
+  <!DOCTYPE html>
+<html>
+<head>
+<title>Mark Sheet</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Grading_system.css">
+</head>
+<body>
+  <nav>
+    <a href="">Home</a>
+    <a href="">About us</a>
+  </nav>
+<img src="iamges/jihc logo.png" alt="" class="logo">
+<div style="max-width:550px;margin:0px auto;">
+  <h1>JIHC</h1>
+  <h2>Student Mark Sheet</h2>
+  <table class="student">
+   <tr><th>Name : </th><td colspan="3"><span><input type="text"></span></td></tr>
+   <tr><th>Class : </th><td><span>Semester <input type="number"></span></td>
+   <tr><th>Group : </th><td colspan="3"><input type="text"><span></span></td></tr>
+  </table>
+
+<table class="table" id="dataForm">
+  <tr>
+    <th>Subject</th>
+    <th>Marks</th>
+    <th>Grade</th>
+  </tr>
+  <tr>
+    <td><strong><input type="text"></strong></td>
+    <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+    <td class="grade"></td>
+  </tr>
+  <tr>
+    <td><strong><input type="text"></strong></td>
+    <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+    <td class="grade"></td>
+  </tr>
+  <tr>
+    <td><strong><input type="text"></strong></td>
+    <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+    <td class="grade"></td>
+  </tr>
+  <tr>
+    <td><strong><input type="text"></strong></td>
+    <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+    <td class="grade"></td>
+  </tr>
+  <tr>
+    <td><strong><input type="text"></strong></td>
+    <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+    <td class="grade"></td>
+  </tr>
+  <tr>
+    <td><strong><input type="text"></strong></td>
+    <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+    <td class="grade"></td>
+  </tr>
+  
+</table>
+<table>
+  <tr>
+    <td>Percentage :</td>
+    <td id="percentage"></td>
+  </tr>
+  <tr>
+    <td>Final Grade :</td>
+    <td   id="finalgrade"></td>
+  </tr>
+</table>
+
+<script>
+document.addEventListener('keyup', function (event) {
+									 
+var totalmarks = 0;
+var x = document.getElementsByClassName("marks");
+for(var i = 0; i<x.length; i++){
+
+if(x[i].value!='')	{
+
+if(parseFloat(x[i].value)>=95)
+{
+ document.getElementsByClassName("grade")[i].innerHTML='<mark class="col-green">Grade A+</mark>';
+}
+else if(parseFloat(x[i].value)>=90)
+{document.getElementsByClassName("grade")[i].innerHTML='<mark class="col-blue">Grade A-</mark>';
+}
+else if(parseFloat(x[i].value)>=80)
+{
+ document.getElementsByClassName("  grade")[i].innerHTML='<mark class="col-blue">Grade B+</mark>';
+}
+else if(parseFloat(x[i].value)>=70)
+{
+ document.getElementsByClassName("grade")[i].innerHTML='<mark class="col-blue">Grade B-</mark>';
+}
+else if(parseFloat(x[i].value)>=60)
+{
+ document.getElementsByClassName("grade")[i].innerHTML='<mark class="col-blue">Grade C+</mark>';
+}
+else if(parseFloat(x[i].value)>=50)
+{
+ document.getElementsByClassName("grade")[i].innerHTML='<mark class="col-blue">Grade C-</mark>';
+}		
+else 
+{
+ document.getElementsByClassName("grade")[i].innerHTML='<mark class="col-red">Fail</mark>';
+}
+ totalmarks += parseFloat(x[i].value);
+}
+}
+
+var percentage = parseFloat(totalmarks)/6;
+
+document.getElementById('percentage').innerHTML='<mark>'+percentage +' %</mark>';
+
+if(parseFloat(percentage)>90)
+{
+ document.getElementById("finalgrade").innerHTML='<mark class="col-green">Grade A</mark>';
+}
+else if(parseFloat(percentage)>80)
+{
+ document.getElementById("finalgrade").innerHTML='<mark class="col-blue">Grade B</mark>';
+}
+else if(parseFloat(percentage)>70)
+{
+ document.getElementById("finalgrade").innerHTML='<mark class="col-blue">Grade C</mark>';
+}
+else if(parseFloat(percentage)>60)
+{
+ document.getElementById("finalgrade").innerHTML='<mark class="col-blue">Grade D</mark>';
+}
+else if(parseFloat(percentage)>50)
+{
+ document.getElementById("finalgrade").innerHTML='<mark class="col-blue">Grade E</mark>';
+}
+else if(parseFloat(percentage)>40)
+{
+ document.getElementById("finalgrade").innerHTML='<mark class="col-blue">Grade F</mark>';
+}		
+else 
+{
+ document.getElementById("finalgrade").innerHTML='<mark class="col-red">Fail</mark>';
+}
+});
+</script>
+<form action="homeafter.html">
+  <button>
+    <strong>
+      SUBMIT
+    </strong>
+  </button>
+</form>
+</body>
+</html>
