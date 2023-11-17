@@ -14,6 +14,10 @@
     justify-content: center;
 }
 
+._container{
+    max-width: 1200px;
+}
+
 .content{
     text-align: left;
 }
@@ -92,9 +96,9 @@ h1{
 
 .text2{
     color: #fff;
-    font-size: 45px;
+    font-size: 35px;
     margin-top: 25px;
-    margin-left: 800px;
+    margin-left: 100px;
     width: 670px;
 }
 
@@ -103,7 +107,7 @@ h1{
 .divtext{
     color:black;
     font-size: 60px;
-    margin-top: 80px;
+    margin-top: 260px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 70px;
   
