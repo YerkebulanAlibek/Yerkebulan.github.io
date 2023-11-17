@@ -1,0 +1,12 @@
+a, b, c, = int(input()), int(input()), int(input())
+
+result = 0
+
+if a > 0:
+    result = result + a
+if b > 0:
+    result = result + b
+if c > 0:
+    result = result + c
+
+print(result)    

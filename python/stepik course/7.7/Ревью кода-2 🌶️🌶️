@@ -1,0 +1,15 @@
+mx = -1000000
+counter = 0
+s = 0
+for i in range(10):
+    x = int(input())
+    if x < 0:
+        s += x
+        counter += 1
+        if x > mx:
+            mx = x
+if counter == 0:
+    print('NO')
+else:
+    print(s)
+    print(mx)

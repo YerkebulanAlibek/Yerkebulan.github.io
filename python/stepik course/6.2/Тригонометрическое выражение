@@ -1,0 +1,8 @@
+from math import *
+
+a = radians(float(input()))
+
+print(sin(a)+ cos(a)+tan(a)**2)
+
+
+

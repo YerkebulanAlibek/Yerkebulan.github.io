@@ -1,0 +1,6 @@
+text = input()
+a = 0
+while text != 'стоп' and text != 'хватит' and text != 'достаточно':
+    a += 1
+    text = input()
+print(a)

@@ -1,0 +1,6 @@
+s = input() 
+firstH = s.find('h')
+lastH = s.rfind('h')
+print(s[:firstH], s[lastH + 1:], sep= '' )
+
+

@@ -1,0 +1,13 @@
+a = (input())
+b = (input())
+c = (input())
+
+q = min(len (a), len(b), len(c))
+w = max(len (a), len(b), len(c))
+medium = (len(a) + len(b) + len(c)) -w -q
+
+
+if w - medium == medium - q:
+    print('YES')
+else:
+    print('NO')

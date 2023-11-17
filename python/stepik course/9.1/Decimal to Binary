@@ -1,0 +1,6 @@
+n = int(input())
+binary = bin(n)
+nstr = str(binary)
+
+for i in range(2, len(nstr)):
+    print(nstr[i], end= '')

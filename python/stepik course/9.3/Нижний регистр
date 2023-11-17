@@ -1,0 +1,8 @@
+s = input()
+count = 0
+num = '0123456789'
+for i in range(len(s)):
+    if s[i] == s[i].lower() and s[i] not in num:
+        count += 1
+print(count)
+        

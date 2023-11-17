@@ -1,0 +1,11 @@
+a = int(input())
+
+one = a % 1000 // 100
+two = a % 100 // 10 
+three = a % 10
+
+
+if one + two == three or two + three == one or one + three == two: 
+    print('Число интересное')
+else:
+    print('Число неинтересное')

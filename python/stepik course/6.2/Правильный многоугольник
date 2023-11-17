@@ -1,0 +1,9 @@
+from math import *
+
+
+a = float(input())
+n = float(input())
+
+result = (a * pow(n, 2)) / (4 * tan(pi / a))
+print(result)
+

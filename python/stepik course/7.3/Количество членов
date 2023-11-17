@@ -1,0 +1,7 @@
+a = input()
+counter = 0 
+
+while a != 'стоп' and != 'хватит' and != 'достаточно':
+    counter += 1
+    a = input()
+print(counter)    

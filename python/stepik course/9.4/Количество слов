@@ -1,0 +1,7 @@
+s = input()
+spaces = 1
+for i in s:
+    if i == ' ':
+        spaces += 1
+print(spaces)
+

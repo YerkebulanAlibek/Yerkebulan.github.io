@@ -1,0 +1,7 @@
+n = input()                  
+flag = 'Цифр нет'               
+for i in range(len(str(n))):   
+    if n[i] in '0123456789':   
+        flag = 'Цифра'            
+        break                  
+print(flag)

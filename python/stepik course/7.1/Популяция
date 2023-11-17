@@ -1,0 +1,7 @@
+
+a = int(input())
+b = int(input())
+n = int(input())
+for i in range(n):    
+    print( i + 1, a)
+    a = a +((b * a) / 100)

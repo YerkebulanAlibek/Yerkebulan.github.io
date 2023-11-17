@@ -1,0 +1,5 @@
+s = input()
+p1 = s.find('h')
+p2 = s.rfind('h')
+print(s[:p1], s[p2 + 1:], sep= '')
+

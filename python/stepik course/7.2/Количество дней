@@ -1,0 +1,9 @@
+n = int(input())
+
+if n == 2:
+    print('28')
+elif n <= 7:
+    print(30 + n % 2 )
+else: 
+    print(31 - n % 2 )
+

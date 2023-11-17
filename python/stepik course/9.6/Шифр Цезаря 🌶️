@@ -1,0 +1,7 @@
+key = int(input())
+s = input()
+for i in s:
+    if ord(i) - key < 97:
+        print(chr(ord((i) - key + 26)), end= '')
+    else:
+        print(chr(ord(i) - key), end= '')

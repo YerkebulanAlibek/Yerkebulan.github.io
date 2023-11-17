@@ -1,0 +1,6 @@
+f = input()
+i = input()
+o = input()
+print(i[0] + f[0] + o[0])
+
+

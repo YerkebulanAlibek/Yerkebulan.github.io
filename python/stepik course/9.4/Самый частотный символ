@@ -1,0 +1,11 @@
+s = input()
+maxi = 0
+
+for i in range(len(s)):
+    if s.count(s[i]) >= maxi:
+        maxi = s.count(s[i])
+        symbol = s[i]
+        
+print(symbol)
+    
+

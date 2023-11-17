@@ -1,0 +1,12 @@
+text = input()
+glasni = 'ауоыиэяюёеАУОЫИЭЯЮЁЕ'
+countGlasni = 0
+soglasni = 'бвгджзйклмнпрстфхцчшщБВГДЖЗЙКЛМНПРСТФХЦЧШЩ'
+countSoglasni = 0
+for i in range(len(text)):
+    if text[i] in glasni:
+        countGlasni += 1
+    elif text[i] in soglasni:
+        countSoglasni += 1
+print('Количество гласных букв равно', countGlasni)
+print('Количество согласных букв равно', countSoglasni) 

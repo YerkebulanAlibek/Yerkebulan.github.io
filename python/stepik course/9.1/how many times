@@ -1,0 +1,11 @@
+text = input()
+countP = 0
+countS = 0
+for i in range(len(text)):
+    if text[i] == '+':
+        countP += 1
+    if text[i] == '*':
+        countS += 1
+print('Символ + встречается', countP, 'раз')
+print('Символ * встречается', countS, 'раз')
+

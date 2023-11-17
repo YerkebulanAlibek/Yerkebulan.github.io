@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+
+arkin = ((a - 1) // 2) * 2 + 1
+for i in range(arkin, b -1, -2 ):
+    print(i)

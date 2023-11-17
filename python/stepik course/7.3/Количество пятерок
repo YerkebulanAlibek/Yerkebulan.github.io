@@ -1,0 +1,9 @@
+a = int(input())
+b = 0
+
+while 1<= a <= 5:
+    if a==5:
+        b += 1
+    a = int(input())    
+print(b)    
+
