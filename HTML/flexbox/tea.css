@@ -62,7 +62,7 @@ html {
 	margin: 0;
 	padding: 10px;
  }
- h2 {
+ h2	{
 	display: block;
 	font-size: 24px;
 	margin-block-start: 14px;
@@ -71,7 +71,7 @@ html {
 	margin-inline-end: 0px;
 	font-weight: bold;
  }
- h4 {
+ h4	{
 	display: block;
 	margin-block-start: 22px;
 	margin-block-end: 22px;
@@ -135,7 +135,7 @@ html {
  .container.location {
 	padding-top: 5px;
  }
- p {
+ p{
 	display: block;
 	margin-block-start: 16px;
 	margin-block-end: 16px;
@@ -164,13 +164,13 @@ html {
 	height: 500px;
 	background-image: url ();
 	padding-top: 20px;
-	}
-	#locations {
-		background-image: url(https://raw.githubusercontent.com/darkhanzhursin/jihc-fe/main/homeworks/css/tea/images/img-locations-background.jpg);
-		height: 500px;
-		width: 1200px;
-		padding-top: 70px;
-		background-repeat: no-repeat;
-		margin: auto;
-		align-items: center;
+}
+#locations {
+	background-image: url(https://raw.githubusercontent.com/darkhanzhursin/jihc-fe/main/homeworks/css/tea/images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	padding-top: 70px;
+	background-repeat: no-repeat;
+	margin: auto;
+	align-items: center;
 }
