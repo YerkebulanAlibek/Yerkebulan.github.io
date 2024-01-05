@@ -1,4 +1,4 @@
-let body = document.querySelector("body");
+let body = document.querySelector("body", "img");
 let observer = new IntersectionObserver(enteries => {
     enteries.forEach(entry => {
         if(entry.isIntersecting){
